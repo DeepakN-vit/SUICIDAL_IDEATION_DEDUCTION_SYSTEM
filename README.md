@@ -44,12 +44,7 @@ SUICIDE_PROJECT/
 ├── weekly_report_generator.py # Generates 7-day average report
 ├── requirements.txt # All project dependencies
 └── README.md # Project documentation
-
-yaml
-Copy
-Edit
-
----
+ 
 
 ## ⚙️ Installation & Setup
 
@@ -65,17 +60,12 @@ Edit
 pip install -r requirements.txt
 If you're using Windows and get PyAudio errors:
 
-bash
-Copy
-Edit
+ 
 pip install pipwin
 pipwin install pyaudio
 📦 Place the Trained Model
 Put your trained RoBERTa model in:
-
-bash
-Copy
-Edit
+ 
 TRAINING/roberta_model/
 Make sure it includes:
 
@@ -88,9 +78,7 @@ tokenizer.json or equivalent vocab files
 🚀 How to Run
 Start the dashboard locally:
 
-bash
-Copy
-Edit
+ 
 streamlit run app.py
 🧪 How It Works
 User submits input (typed or spoken)
@@ -112,9 +100,7 @@ Date	Input Text	Prediction	Probability
 2025-07-11	I’m finally feeling better today.	non-suicide	0.22
 
 weekly_report.txt
-yaml
-Copy
-Edit
+ 
 🧾 Weekly Emotional Report (Jul 4 - Jul 10)
 
 🔴 Day 1: At Risk
@@ -155,9 +141,7 @@ This project is licensed under the MIT License.
 
 You are free to use, modify, and distribute this code, provided that you include the original copyright.
 
-sql
-Copy
-Edit
+ 
 MIT License
 
 Copyright (c) 2025 Deepak N.
